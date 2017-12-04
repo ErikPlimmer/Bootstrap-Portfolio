@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+}
+.title {
+	background-color: #8B0000;
+	text-align: center;
+	color: white;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.background {
+	background-image: url("../images/vintage-concrete.png"); 
+	width: 100%;
+	background-repeat:repeat;
+	height: 100%;
+	position: relative;
+	
+}
+li {
+	display: inline;
+}
+.nav {
+	text-align: center;
+}
+a {
+	color: #8B0000;
+}
+.aside {
+	border-style: solid;
+	color: #8B0000;
+	color: #8B0000;
+	border-color: #8B0000;
+	border-width: 3px 3px 3px 3px;
+	width: 250px;
+	height: 170px;
+	color: 	#8B0000;
+	font-size: 24px;
+	text-align: center;
+
+
+}
+.mainsection {
+	border: solid;
+	border-color: #8B0000;
+}
+.navbar-default {
+	border: solid;
+	border-width: 0px 0px 5px 0px;
+	border-color: #8B0000;
+}
+footer {
+	text-align: center;
+	font-size: 24px;
+
+}
+.navbar-fixed-bottom {
+	color: #8B0000;
+	border: solid;
+	border-color: #8B0000;
+	border-width: 5px 0px 0px 0px;
+}
+.photo {
+	width: 300px;
+	height: 300px;
+	transform: rotate(90deg);
+
+}
+p {
+	font-size: 18px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
