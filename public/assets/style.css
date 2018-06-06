@@ -1,8 +1,37 @@
+.title{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(235, 133, 16);
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+	animation-duration: 10s;
+	animation-iteration-count: 26;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color: peachpuff;}
+    25%  {background-color: skyblue;}
+	50%  {background-color: plum;}
+	75%	 {background-color: rgb(235, 133, 16);}
+    100% {background-color:  peachpuff;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: peachpuff;}
+    25%  {background-color: skyblue;}
+	50%  {background-color: plum;}
+	75%	 {background-color: rgb(235, 133, 16);}
+    100% {background-color:  peachpuff;}
+}
+
+/* 
 .title {
 	background-color: #8B0000;
 	text-align: center;
 	color: white;
-}
+} */
 ul {
 	list-style-type: none;
 	padding: 0;
@@ -153,7 +182,7 @@ body {
 	display: inline-block;
 }
 .portfolio {
-	font-size: 24px 
+	font-size: 24px ;
 	color: #8B0000;
 	background-color: blue;
 }
